@@ -5,6 +5,25 @@ html {
   height: 100vh;
   margin: 0;
   background: linear-gradient(45deg, #bebebe, #d3d3d3, #f5f5f5);
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+body ::-webkit-scrollbar,
+html ::-webkit-scrollbar {
+  width: 5px;
+}
+body ::-webkit-scrollbar-track,
+html ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+body ::-webkit-scrollbar-thumb,
+html ::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, whitesmoke, lightgray);
+}
+body ::-webkit-scrollbar-thumb:hover,
+html ::-webkit-scrollbar-thumb:hover {
+  background: silver;
 }
 .container {
   position: absolute;
@@ -16,7 +35,11 @@ html {
           transform: translate(-50%, -50%);
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.15), 0 7px 10px rgba(0, 0, 0, 0.22);
   background-color: #303030;
-  overflow-y: auto;
+  overflow: hidden;
+}
+.container ul {
+  margin: 0;
+  padding: 10px 20px;
 }
 .container .title {
   font-family: 'Roboto Slab', serif;
@@ -35,8 +58,8 @@ html {
 }
 .container .bar {
   position: relative;
-  height: 5px;
-  margin: -20px 8px 0 85px;
+  height: 6px;
+  margin: -20px 8px 0 100px;
   bottom: 5px;
   width: auto;
   display: block;
@@ -44,8 +67,8 @@ html {
   border-radius: 50px;
 }
 .container .bar .progress {
-  height: 5px;
-  background-color: #f5f5f5;
+  height: 6px;
+  background: whitesmoke;
   border-radius: 50px;
 }
 .container .vl {
@@ -83,7 +106,6 @@ html {
   font-weight: 600;
   display: block;
   text-transform: capitalize;
-  margin-top: 5px;
 }
 .container .third {
   font-family: 'Roboto Slab', serif;
@@ -94,6 +116,7 @@ html {
   display: block;
   text-transform: capitalize;
   margin-top: 5px;
+  margin-right: 90px;
 }
 .container .icons {
   position: relative;
@@ -106,9 +129,11 @@ html {
   float: left;
   width: 35%;
   height: auto;
-  min-height: 100%;
+  height: 100%;
   color: white;
   background-color: #303030;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 .container .left .photo img {
   width: 100%;
@@ -127,6 +152,14 @@ html {
 .container .left .contact .info {
   margin-right: 5%;
   margin-left: 15%;
+}
+.container .left .contact .info a,
+.container .left .contact .info a:visited {
+  color: white;
+  text-decoration: none;
+}
+.container .left .contact .info a:hover {
+  color: lightgrey;
 }
 .container .left .contact .info img {
   position: relative;
@@ -152,9 +185,10 @@ html {
 .container .right {
   float: right;
   width: 65%;
-  height: auto;
+  height: 100%;
   min-height: 100%;
   background-color: #fff;
+  overflow-y: auto;
 }
 .container .right .name {
   font-family: 'Roboto Slab', serif;
@@ -178,7 +212,7 @@ html {
 .container .right .about {
   position: relative;
   display: block;
-  margin: 15% 5% 0 10%;
+  margin: 15% 5% 0 0;
 }
 .container .right .education {
   margin: 25px 5% 0 10%;

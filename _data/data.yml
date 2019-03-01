@@ -1,0 +1,100 @@
+sidebar:
+    photo: profile.jpg
+    # Sidebar links
+    telegram: janedoe
+    email: janedoe@email.com
+    github: janedoe
+    linkedin: janedoe
+
+
+    skills:
+        - name: Python
+          level: 50%
+
+        - name: Javascript
+          level: 60%
+
+        - name: C,C++
+          level: 60%
+
+        - name: HTML5 & CSS
+          level: 70%
+
+        - name: Java
+          level: 50%
+
+        - name: Less
+          level: 70%
+
+        - name: git
+          level: 80%
+    programs:
+        - name: Photoshop
+          level: 50%
+
+        - name: Lightroom
+          level: 70%
+
+        - name: Illustrator
+          level: 35%
+
+        - name: MS Word
+          level: 100%
+
+        - name: MS Powerpoint
+          level: 100%
+
+        - name: MS Excel
+          level: 100%
+
+        - name: Linux
+          level: 100%
+
+        - name: windows
+          level: 100%
+
+profile:
+    name: Jane Doe
+    tagline: Some profession
+    about-text: |
+        Here you write something about yourshelf!! :)
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+education:
+    - title: Some Degree
+      university: At some university
+      time: 2016-2020
+      details: |
+        some details about your studies (this is optional)
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+        - Bullet point
+        - Bullet point
+    - title: Some other Degree
+      university: At some university
+      time: 2020-2022
+work:
+    - position: Some job
+      company: At some company
+      city: city
+      country: country
+      period: period
+      details: |
+        some details about your position there
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        - Bullet point
+        - Bullet point
+    - position: Some other job
+      company: At some company
+      city: city
+      country: country
+      period: period
+      details: |
+        some details about your position there
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        - Bullet point
+        - Bullet point

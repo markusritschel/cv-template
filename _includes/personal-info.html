@@ -1,0 +1,14 @@
+{% assign profile = site.data.data.profile %}
+{% if profile %}
+    <div class="name">
+        <span>{{profile.name}}</span>
+        <div class="profession">
+            <span>{{profile.tagline}}</span>
+        </div>
+        <div class="about">
+            <img class="icons" src="{{ site.baseurl }}/assets/images/user.svg" alt="">
+            <span class="title">About</span>
+            <span class="text">{{profile.about-text | markdownify}}</span>
+        </div>
+    </div>
+{% endif %}

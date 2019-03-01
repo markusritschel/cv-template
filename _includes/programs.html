@@ -1,0 +1,12 @@
+{% assign programs = site.data.data.sidebar.programs %}
+{% if programs %}
+    <div class="skills">
+        <span class="title">Software</span>
+        {% for program in programs %}
+            <span class="third">{{program.name}}</span>
+            <div class="bar">
+                <div class="progress" style="width: {{ program.level }};"></div>
+            </div>
+        {% endfor %}
+    </div>
+{% endif %}

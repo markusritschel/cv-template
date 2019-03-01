@@ -1,0 +1,16 @@
+{% assign work = site.data.data.work %}
+{% if work %}
+    <div class="work">
+        <img class="icons" src="{{ site.baseurl }}/assets/images/work.svg" alt="">
+        <span class="title">work experience</span>
+        {% for exp in work %}
+            <div class="vl">
+                <span class="secondary">{{exp.position}}</span>
+                <span class="third">{{exp.company}}/{{exp.city}}/{{exp.country}}/
+                    {{exp.period}}</span>
+
+                <span class="text" id="edu">{{exp.details | markdownify }}</span>
+            </div>
+        {% endfor %}
+    </div>
+{% endif %}

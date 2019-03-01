@@ -1,0 +1,14 @@
+{% assign sidebar = site.data.data.sidebar %}
+
+<div class="left">
+    <div class="photo">
+        {% if sidebar.photo %}
+            <img src="{{ site.baseurl }}/assets/images/{{ sidebar.photo }}" alt="profile picture"/>
+        {% endif %}
+    </div>
+
+    {% include contact.html %}
+    {% include skills.html %}
+    {% include programs.html %}
+
+</div>

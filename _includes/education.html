@@ -1,0 +1,18 @@
+{% assign education = site.data.data.education %}
+{% if education %}
+    <div class="education">
+        <img class="icons" src="{{ site.baseurl }}/assets/images/edu.svg" alt="">
+        <span class="title">education</span>
+        {% for graduation in education %}
+            <div class="vl">
+                <span class="secondary">{{ graduation.title}}</span>
+                <span class="third">{{graduation.university}}
+                    {{graduation.time}}</span>
+                {% if graduation.details %}
+                    <span class="text">{{graduation.details | markdownify}}</span>
+                {% endif %}
+            </div>
+        {% endfor %}
+    </div>
+
+{% endif %}

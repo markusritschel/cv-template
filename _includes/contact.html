@@ -1,0 +1,31 @@
+<div class="contact">
+    {% if sidebar.contacts %}
+        <span class="title">contact</span>
+    {% endif %}
+    <div class="info">
+        <img src="{{ site.baseurl }}/assets/images/telegram.svg" alt=""/>
+        {% if sidebar.telegram %}
+            <span class="details">
+                <a href=" https://telegram.me/{{sidebar.telegram}}">{{sidebar.telegram}}</a>
+            </span>
+        {% endif %}
+        <img src="{{ site.baseurl }}/assets/images/email.svg" alt=""/>
+        {% if sidebar.email %}
+            <span class="details">
+                <a href="mailto:{{ sidebar.email }}">{{ sidebar.email }}</a>
+            </span>
+        {% endif %}
+        <img src="{{ site.baseurl }}/assets/images/github.svg" alt=""/>
+        {% if sidebar.github %}
+            <span class="details">
+                <a href="http://github.com/{{ sidebar.github }}" target="_blank">{{ sidebar.github }}</a>
+            </span>
+        {% endif %}
+        <img src="{{ site.baseurl }}/assets/images/linkedin.svg" alt=""/>
+        {% if sidebar.github %}
+            <span class="details">
+                <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank">{{ sidebar.linkedin }}</a>
+            </span>
+        {% endif %}
+    </div>
+</div>
