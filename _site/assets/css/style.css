@@ -39,7 +39,8 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 .container ul {
   margin: 0;
-  padding: 10px 20px;
+  padding-bottom: 5px;
+  margin-top: -5px;
 }
 .container .title {
   font-family: 'Roboto Slab', serif;
@@ -99,6 +100,8 @@ html ::-webkit-scrollbar-thumb:hover {
   font-weight: 300;
   display: block;
   margin-top: 5px;
+  margin-bottom: 0;
+  padding-bottom: 5px;
 }
 .container .secondary {
   font-family: 'Roboto Slab', serif;
