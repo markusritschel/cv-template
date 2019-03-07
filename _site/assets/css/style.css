@@ -102,6 +102,7 @@ html ::-webkit-scrollbar-thumb:hover {
   margin-top: 5px;
   margin-bottom: 0;
   padding-bottom: 5px;
+  text-transform: none;
 }
 .container .secondary {
   font-family: 'Roboto Slab', serif;

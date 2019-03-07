@@ -1,42 +1,45 @@
 sidebar:
     photo: profile.jpg
     # Sidebar links
-    telegram: janedoe
-    email: janedoe@email.com
-    github: janedoe
-    linkedin: janedoe
+    telegram: scarlettmiss
+    email: scarlettmiss@hotmail.com
+    github: scarlettmiss
+    linkedin: scarlettmiss
 
 
     skills:
         - name: Python
-          level: 50%
+          level: 30%
 
         - name: Javascript
-          level: 60%
+          level: 50%
 
         - name: C,C++
           level: 60%
 
-        - name: HTML5 & CSS
-          level: 70%
+        - name: HTML5 & LESS
+          level: 50%
 
         - name: Java
           level: 50%
 
-        - name: Less
+        - name: git
           level: 70%
 
-        - name: git
+        - name: photography
           level: 80%
+
+        - name: editing
+          level: 70%
     programs:
         - name: Photoshop
           level: 50%
 
         - name: Lightroom
-          level: 70%
+          level: 60%
 
         - name: Illustrator
-          level: 35%
+          level: 40%
 
         - name: MS Word
           level: 100%
@@ -53,48 +56,31 @@ sidebar:
         - name: windows
           level: 100%
 
+
 profile:
-    name: Jane Doe
-    tagline: Some profession
+    name: Maria Papanagiotou
+    tagline: junior web developer
+    icon: user.svg
     about-text: |
-        Here you write something about yourshelf!! :)
+        I’m a nice fun and friendly person, I’m honest and punctual, I work well in a team but also on my own as I like to set myself goals which I will achieve, I have good listening and communication skills. I have a creative mind and am always up for new challenges. I am well organized and always plan ahead to make sure I manage my time well.
 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 education:
-    - title: Some Degree
-      university: At some university
-      time: 2016-2020
-      details: |
-        some details about your studies (this is optional)
+    - title: Bachelor of Computer Science/Information Technology
+      university: Ionian University
+      time: 2016- 2020
 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-        - Bullet point
-        - Bullet point
-
-    - title: Some other Degree
-      university: At some university
-      time: 2020-2022
 work:
-    - position: Some job
-      company: At some company
-      city: city
-      country: country
-      period: period
+    - position: Sales assistant
+      company: Public(Retail World SA)
+      city: Corfu
+      country: Greece
+      period: 7.2018-8.2018
       details: |
-        some details about your position there
+        My job as a sales assistant always required me to be a step ahead of technology trends and constantly learn more about it, so I could meet the companys high standards and provide our costumers the best service and the technology solutions they were searching for. Therefore some skills skills i learned from my work there are:
 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        - Bullet point
-        - Bullet point
-    - position: Some other job
-      company: At some company
-      city: city
-      country: country
-      period: period
-      details: |
-        some details about your position there
-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        - Bullet point
-        - Bullet point
+        - Customer service and communication skills
+        - Problem-solving and initiative
+        - Attention to detail
+        - Responsibility
+        - Time management
+        - Working as a team member
