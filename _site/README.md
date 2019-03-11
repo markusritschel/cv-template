@@ -5,7 +5,7 @@
 
 Checkout the live demo [here](https://scarlettmiss.github.io/cv-template/).
 
-![preview of cv](assets/images/cv-template.png)
+![preview of cv](assets/images/cv-template-demo.png)
 
 ## Installation & setup guide
 

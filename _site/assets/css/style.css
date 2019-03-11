@@ -224,3 +224,9 @@ html ::-webkit-scrollbar-thumb:hover {
 .container .right .work {
   margin: 25px 5% 40px 10%;
 }
+@media screen and (max-width: 900px) {
+  .container {
+    width: 100vw;
+    height: 100vh;
+  }
+}
