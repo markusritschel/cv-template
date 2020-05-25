@@ -11,14 +11,20 @@ sidebar:
         - name: Python
           level: 30%
 
-        - name: Javascript
-          level: 50%
-
+        - name: Javascript & jQuery
+          level: 40%
+        
+        - name: VueJs
+          level: 40%
+          
+        - name: php
+          level: 40%
+        
         - name: C,C++
           level: 60%
 
-        - name: HTML5 & LESS
-          level: 50%
+        - name: HTML5 & scss
+          level: 60%
 
         - name: Java
           level: 50%
@@ -26,11 +32,10 @@ sidebar:
         - name: git
           level: 70%
 
-        - name: photography
-          level: 80%
-
-        - name: editing
-          level: 70%
+        - name: adruino 
+          level: 50%
+        
+          
     programs:
         - name: Photoshop
           level: 50%
@@ -39,15 +44,18 @@ sidebar:
           level: 60%
 
         - name: Illustrator
-          level: 40%
-
-        - name: MS Word
+          level: 20%
+        
+        - name: Atom
+          level: 100%
+          
+        - name: Xampp
+          level: 100%
+        
+        - name: Bitvise
           level: 100%
 
-        - name: MS Powerpoint
-          level: 100%
-
-        - name: MS Excel
+        - name: MS Office
           level: 100%
 
         - name: Linux
@@ -55,32 +63,35 @@ sidebar:
 
         - name: windows
           level: 100%
-
+          
+        - name: Omnetpp
+          level: 50%
+          
 
 profile:
-    name: Maria Papanagiotou
-    tagline: junior web developer
+    name: Μαρία Παπαναγιώτου
+    tagline: Φοιτήτρια πληροφορικής
     icon: user.svg
     about-text: |
-        I’m a nice fun and friendly person, I’m honest and punctual, I work well in a team but also on my own as I like to set myself goals which I will achieve, I have good listening and communication skills. I have a creative mind and am always up for new challenges. I am well organized and always plan ahead to make sure I manage my time well.
+        Είμαι τελειόφοιτη φοιτήτρια στο τμήμα πληροφορικής του Ιονιου Πανεπιστημίου,στον ελεύθερο χρόνο μου ασχολούμαι με την φωτογραφία και την ψηφιακή επεξεργασία εικόνων, καθώς και με προγραμματισμό μικρο-ελεγκτών τύπου Arduino αλλα και δημιουργία template με HTML,SASS,VUE. Διαθέτω επίσης μικρή εμπειρία με διαχείριση wordpress και woocommerce
 
 education:
-    - title: Bachelor of Computer Science/Information Technology
-      university: Ionian University
+    - title: Τμήμα Πληροφορικής
+      university: Ιονιου Πανεπιστημίου
       time: 2016- 2020
 
 work:
-    - position: Sales assistant
+    - position: Bοηθός πωλήσεων ηλ.συσκευων
       company: Public(Retail World SA)
-      city: Corfu
-      country: Greece
+      city: Κέρκυρα
+      country: Ελλάδα
       period: 7.2018-8.2018
       details: |
-        My job as a sales assistant always required me to be a step ahead of technology trends and constantly learn more about it, so I could meet the companys high standards and provide our costumers the best service and the technology solutions they were searching for. Therefore some skills skills i learned from my work there are:
+        Η δουλειά μου ως βοηθός πωλήσεων πάντα απαιτούσε να είμαι ένα βήμα μπροστά από τις τεχνολογικές τάσεις και να μαθαίνω συνεχώς περισσότερα για αυτες, για να μπορώ να καλύψω τις υψηλές απαιτήσεις μπορούσα να πληρώσω τα υψηλά πρότυπα της εταιρείας και να προσφέρω στους πελάτες μας την καλύτερη εξυπηρέτηση και τις τεχνολογικές λύσεις που αναζητούσαν. Ως εκ τούτου, μερικές δεξιότητες που έμαθα από τη δουλειά μου είναι:
 
-        - Customer service and communication skills
-        - Problem-solving and initiative
-        - Attention to detail
-        - Responsibility
-        - Time management
-        - Working as a team member
+        - Εξυπηρέτηση πελατών και δεξιότητες επικοινωνίας
+        - Pεπίλυση προβλημάτων και πρωτοβουλία
+        - Προσοχή στη λεπτομέρεια
+        - Υπευθυνότητα
+        - Διαχείριση χρόνου
+        - Εργασία ως μέλος μιας ομάδας
